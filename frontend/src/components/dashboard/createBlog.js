@@ -23,7 +23,7 @@ function CreateBlog(props) {
     	imgData.append('cloud_name', 'dotsnppdq');
     	
         if (img !== '') {
-            const { data } = await axios.post('https://api.cloudinary.com/v1_1/dotsnppdq/image/upload', imgData)
+            const { data } = await axios.post(`https://api.cloudinary.com/v1_1/${process.env.REACT_APP_CLOUD_NAME}/image/upload`, imgData)
             .catch(err => console.log(err));
 
             blog['picture'] = data.url;
