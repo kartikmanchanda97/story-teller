@@ -1,0 +1,21 @@
+.blogContainer {
+  background: #F5F5F5;
+}
+
+.left {
+  background: #fff;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.left .content {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+

@@ -1,0 +1,11 @@
+.card {
+  width: 98%;
+  background: #fff;
+  display: inline-block;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  padding: 15px;
+}

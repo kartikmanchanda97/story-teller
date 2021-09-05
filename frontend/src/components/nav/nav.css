@@ -1,0 +1,11 @@
+nav {
+  background: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+nav ul li {
+  padding-right: 40px;
+}
